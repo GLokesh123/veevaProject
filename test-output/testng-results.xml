@@ -1,66 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="18" failed="3" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-11T06:41:12 IST" name="Suite" finished-at="2026-04-11T06:42:17 IST" duration-ms="64588">
+  <suite started-at="2026-04-15T03:50:01 IST" name="Suite" finished-at="2026-04-15T03:52:37 IST" duration-ms="155734">
     <groups>
     </groups>
-    <test started-at="2026-04-11T06:41:12 IST" name="Test2" finished-at="2026-04-11T06:42:17 IST" duration-ms="64588">
+    <test started-at="2026-04-15T03:50:01 IST" name="Test2" finished-at="2026-04-15T03:52:37 IST" duration-ms="155734">
       <class name="testCases.TC02_verifyTeamLogoTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-11T06:41:21 IST" name="setUp" finished-at="2026-04-11T06:41:25 IST" duration-ms="3669" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-15T03:50:11 IST" name="setUp" finished-at="2026-04-15T03:50:14 IST" duration-ms="3337" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTeamLogo()[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-11T06:41:25 IST" name="verifyTeamLogo" finished-at="2026-04-11T06:41:36 IST" duration-ms="11828" status="PASS">
+        <test-method signature="verifyTeamLogo()[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-15T03:50:14 IST" name="verifyTeamLogo" finished-at="2026-04-15T03:50:26 IST" duration-ms="11960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-11T06:41:36 IST" name="tearDown" finished-at="2026-04-11T06:41:37 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_verifyTeamLogoTest@198b6731]" started-at="2026-04-15T03:50:26 IST" name="tearDown" finished-at="2026-04-15T03:50:26 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC02_verifyTeamLogoTest -->
       <class name="testCases.TC04_verifySearchFunctionalityTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-11T06:42:07 IST" name="setUp" finished-at="2026-04-11T06:42:11 IST" duration-ms="3330" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-15T03:52:27 IST" name="setUp" finished-at="2026-04-15T03:52:31 IST" duration-ms="3442" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchFunctionality()[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-11T06:42:11 IST" name="verifySearchFunctionality" finished-at="2026-04-11T06:42:16 IST" duration-ms="5610" status="PASS">
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-15T03:52:31 IST" name="verifySearchFunctionality" finished-at="2026-04-15T03:52:36 IST" duration-ms="5731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-11T06:42:16 IST" name="tearDown" finished-at="2026-04-11T06:42:17 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_verifySearchFunctionalityTest@3bf7ca37]" started-at="2026-04-15T03:52:36 IST" name="tearDown" finished-at="2026-04-15T03:52:37 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC04_verifySearchFunctionalityTest -->
       <class name="testCases.TC02_verifyWinnersTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:37 IST" name="setUp" finished-at="2026-04-11T06:41:40 IST" duration-ms="3362" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:26 IST" name="setUp" finished-at="2026-04-15T03:50:30 IST" duration-ms="3514" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:43 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:45 IST" duration-ms="1698" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:33 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:50:37 IST" duration-ms="3181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:45 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:46 IST" duration-ms="744" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:37 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:50:43 IST" duration-ms="6117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:46 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:47 IST" duration-ms="663" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:43 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:50:49 IST" duration-ms="6034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:47 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:47 IST" duration-ms="704" status="FAIL">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:49 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:50:55 IST" duration-ms="5800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,48 +136,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC02_verifyWinnersTest.verifyWinmers(TC02_verifyWinnersTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:48 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:48 IST" duration-ms="652" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:50:55 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:01 IST" duration-ms="6258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:48 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:49 IST" duration-ms="773" status="FAIL">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:01 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:08 IST" duration-ms="6696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,48 +168,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC02_verifyWinnersTest.verifyWinmers(TC02_verifyWinnersTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:49 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:50 IST" duration-ms="698" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:08 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:14 IST" duration-ms="6627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,7 +187,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:50 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:51 IST" duration-ms="728" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:14 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:20 IST" duration-ms="5782" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,7 +203,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:51 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:52 IST" duration-ms="840" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:20 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:28 IST" duration-ms="7653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,7 +219,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:52 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:53 IST" duration-ms="781" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:28 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:34 IST" duration-ms="6594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -296,7 +235,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:53 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:53 IST" duration-ms="770" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:34 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:41 IST" duration-ms="6726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -312,7 +251,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:53 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:54 IST" duration-ms="899" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:41 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:48 IST" duration-ms="6851" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,7 +267,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:54 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:55 IST" duration-ms="778" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:48 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:51:54 IST" duration-ms="6373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -344,7 +283,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:55 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:56 IST" duration-ms="700" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:51:54 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:52:01 IST" duration-ms="6921" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,7 +299,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:56 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:56 IST" duration-ms="666" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:52:01 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:52:07 IST" duration-ms="6314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,7 +315,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:56 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:57 IST" duration-ms="817" status="FAIL">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:52:07 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:52:14 IST" duration-ms="6793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,48 +328,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC02_verifyWinnersTest.verifyWinmers(TC02_verifyWinnersTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:58 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-11T06:41:58 IST" duration-ms="696" status="PASS">
+        <test-method signature="verifyWinmers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:52:14 IST" name="verifyWinmers" data-provider="WinnersData" finished-at="2026-04-15T03:52:21 IST" duration-ms="6275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,49 +347,59 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWinmers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-11T06:41:58 IST" name="tearDown" finished-at="2026-04-11T06:41:59 IST" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_verifyWinnersTest@7c6908d7]" started-at="2026-04-15T03:52:21 IST" name="tearDown" finished-at="2026-04-15T03:52:21 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC02_verifyWinnersTest -->
       <class name="testCases.TC03_verifyTop1ScoreTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-11T06:41:59 IST" name="setUp" finished-at="2026-04-11T06:42:02 IST" duration-ms="3281" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-15T03:52:21 IST" name="setUp" finished-at="2026-04-15T03:52:25 IST" duration-ms="3730" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTop1Score()[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-11T06:42:02 IST" name="verifyTop1Score" finished-at="2026-04-11T06:42:07 IST" duration-ms="5030" status="PASS">
+        <test-method signature="verifyTop1Score()[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-15T03:52:25 IST" name="verifyTop1Score" finished-at="2026-04-15T03:52:27 IST" duration-ms="2385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTop1Score -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-11T06:42:07 IST" name="tearDown" finished-at="2026-04-11T06:42:07 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_verifyTop1ScoreTest@3c9754d8]" started-at="2026-04-15T03:52:27 IST" name="tearDown" finished-at="2026-04-15T03:52:27 IST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC03_verifyTop1ScoreTest -->
       <class name="testCases.TC01_FooterTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-11T06:41:12 IST" name="setUp" finished-at="2026-04-11T06:41:18 IST" duration-ms="6107" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-15T03:50:01 IST" name="setUp" finished-at="2026-04-15T03:50:08 IST" duration-ms="6525" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="footerTest()[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-11T06:41:18 IST" name="footerTest" finished-at="2026-04-11T06:41:21 IST" duration-ms="2151" status="PASS">
+        <test-method signature="footerTest()[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-15T03:50:08 IST" name="footerTest" finished-at="2026-04-15T03:50:10 IST" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-11T06:41:21 IST" name="tearDown" finished-at="2026-04-11T06:41:21 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_FooterTest@74e52ef6]" started-at="2026-04-15T03:50:10 IST" name="tearDown" finished-at="2026-04-15T03:50:11 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

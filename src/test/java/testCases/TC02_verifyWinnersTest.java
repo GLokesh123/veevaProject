@@ -13,14 +13,14 @@ public class TC02_verifyWinnersTest extends BaseClass{
 public void verifyWinmers(String year,String winner)
 {
 	try {
-		System.out.println(year+" "+winner);
+		//System.out.println(year+" "+winner);
 		HomePage hp=new HomePage(driver);
 		logger.info("home page loaded");
 		hp.clickOnTeamsMenu();
 		
 		TeamsMenuPage tp=new TeamsMenuPage(driver);
 		String str=tp.hoverAndExtractTextOnTeam(winner);
-		System.out.println(str);
+		//System.out.println(str);
 		
 		if(str.contains(year))
 		{

@@ -10,9 +10,10 @@
   
   <test thread-count="5" name="Test2">   
   <parameter name="browser" value="chrome"></parameter>
-  <parameter name="os" value="windows"></parameter>
+  <parameter name="os" value="windowa"></parameter>
     <classes>
-    <class name="testCases.TC01_FooterTest"/>
+    
+   <class name="testCases.TC01_FooterTest"/>
     <class name="testCases.TC02_verifyTeamLogoTest"/>
       <class name="testCases.TC02_verifyWinnersTest"/>
        <class name="testCases.TC03_verifyTop1ScoreTest"/>
